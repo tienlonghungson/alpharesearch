@@ -1,0 +1,2 @@
+# This Is Learn Folder - A Scratch Space
+This folder is not part of the project. It is just a scratch folder storing everything I learnt to build the project, including my notes, my discussion with Gemini and ChatGPT, how I set the goal, and plan to of the project.
