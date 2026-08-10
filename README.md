@@ -1,3 +1,7 @@
+# Status
+- Learning phase: working dir is [learn](.\learn), all other dirs are at zero state. 
+
+# Environment setup
 1. Create a virtual environment:
    ```
    python -m venv alpharesearch_env
