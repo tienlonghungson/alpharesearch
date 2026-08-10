@@ -1,7 +1,9 @@
-pandas
-numpy
-yfinance
-scikit-learn
-matplotlib
+pandas==2.2.2
+numpy==2.0.2
+yfinance==0.2.66
+scikit-learn==1.6.1
+matplotlib==3.10.0
 jupyter
-ipykernel
+ipykernel==6.17.1
+lxml==6.1.1
+pyarrow==18.1.0
