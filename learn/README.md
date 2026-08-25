@@ -1,6 +1,3 @@
-# This Is Learn Folder - A Scratch Space
-This folder is not part of the project. It is just a scratch folder storing everything I learnt to build the project, including my notes, my discussion with Gemini and ChatGPT, how I set the goal, and plan to of the project. Below is the summary of the project.
-
 # Cross-Sectional Equity Alpha Research Platform
 
 ## Project Description
@@ -84,19 +81,13 @@ The primary metrics are
 
 ---
 
-# Two-Phase Development Plan
-
-The project will be developed in two distinct phases.
-
----
-
-# Phase 0 — Learning & Baseline
+# Learning & Baseline
 
 ## Objective
 
 Become familiar with quantitative research terminology, workflows, and software architecture by implementing a complete but minimal end-to-end factor model.
 
-The goal is **understanding**, not novelty.
+The goal is **understanding**.
 
 ---
 
@@ -170,157 +161,3 @@ Evaluate the strategy using
 * Maximum Drawdown
 
 ---
-
-## Deliverables
-
-Repository with a clean software engineering structure:
-
-```text
-equity-alpha/
-
-learn/
-    notebooks for exploration
-
-src/
-    data/
-    factors/
-    labels/
-    models/
-    portfolio/
-    evaluation/
-
-tests/
-
-report/
-```
-
-The notebooks in `learn/` are for experimentation and learning only. The actual implementation belongs in `src/`.
-
----
-
-# Phase 1 — Research Project
-
-## Objective
-
-Transform the baseline implementation into an institutional-quality quantitative research project suitable for internship applications.
-
-The focus shifts from learning to conducting original, defensible research.
-
----
-
-## Milestone 1 — Data Engineering
-
-* Improve data validation
-* Improve reproducibility
-* Clearly document assumptions and limitations
-* Prepare for future migration to point-in-time datasets
-
----
-
-## Milestone 2 — Factor Research
-
-Expand the factor library.
-
-For every new factor:
-
-1. State the hypothesis.
-2. Explain the financial intuition.
-3. Implement the factor.
-4. Test its predictive power.
-
-Perform:
-
-* factor pretests
-* Information Coefficient analysis
-* correlation analysis
-* factor screening
-
----
-
-## Milestone 3 — Modeling
-
-Compare multiple approaches:
-
-* Ridge
-* Lasso
-* Elastic Net
-* Tree-based models (only if justified)
-
-Perform:
-
-* feature importance analysis
-* ablation studies
-* sensitivity analysis
-
----
-
-## Milestone 4 — Portfolio Construction
-
-Progressively improve the allocator:
-
-* equal-weight market-neutral
-* convex optimization (`cvxpy`)
-* sector neutrality
-* turnover constraints
-* transaction costs
-* risk constraints
-
----
-
-## Milestone 5 — Robustness
-
-Stress-test the strategy.
-
-Examples:
-
-* different lookback windows
-* different rebalance frequencies
-* different transaction costs
-* bootstrap confidence intervals
-* statistical significance tests
-
----
-
-## Milestone 6 — Methodological Contribution (Optional)
-
-Possible directions include:
-
-* graph-based stock clustering
-* dynamic similarity graphs
-* approximation algorithms for NP-hard portfolio optimization under cardinality or integer constraints
-* novel factor construction inspired by graph or clustering methods
-
-The contribution should solve a genuine problem rather than introducing complexity for its own sake.
-
----
-
-# Final Deliverables
-
-The completed project should include:
-
-1. **A reproducible GitHub repository**
-
-   * Modular Python package
-   * Tests
-   * Documentation
-   * Reproducible pipeline
-
-2. **An academic-style technical report (8–15 pages)**
-
-   * Abstract
-   * Background
-   * Data
-   * Methodology
-   * Experimental Results
-   * Robustness Analysis
-   * Limitations
-   * Future Work
-
-3. **An interview slide deck (10–15 slides)**
-
-   * Problem statement
-   * Research workflow
-   * Methodology
-   * Results
-   * Lessons learned
-   * Discussion and future improvements
